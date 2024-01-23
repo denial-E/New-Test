@@ -24,7 +24,7 @@ let sumArray = arr => arr.reduce((acc, num) => acc + num, 0);
 
 console.log(sumArray(numbers));
 
-//3.c. Return all the prime numbers in an array:
+//4.c. Return all the prime numbers in an array:
 let numbersArray = [2, 3, 4, 5, 6, 7, 8, 9];
 let getPrimes = arr => arr.filter(num => {
     for (let i = 2; i < num; i++) {
@@ -37,7 +37,7 @@ let getPrimes = arr => arr.filter(num => {
 
 console.log(getPrimes(numbersArray));
 
-//4.d. Return all the palindromes in an array:
+//5.d. Return all the palindromes in an array:
 let wordsArray = ["level", "hello", "radar", "world", "madam"];
 let getPalindromes = arr => arr.filter(word => word === word.split('').reverse().join(''));
 
